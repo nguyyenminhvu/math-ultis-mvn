@@ -17,7 +17,7 @@ import org.junit.jupiter.params.provider.MethodSource;
 public class MathUtilityAdvencedTest {
 
     public static Object[][] initTestData() {
-        Object[][] TestData = {{0, 1}, {1, 1}, {2, 2}, {5, 120}, {6, 220}};
+        Object[][] TestData = {{0, 1}, {1, 1}, {2, 2}, {5, 120}, {6, 720}};
         return TestData;
     }
 
