@@ -20,7 +20,8 @@ public class MathUtilityAdvencedTest {
         Object[][] TestData = {{0, 1}, {1, 1}, {2, 2}, {5, 120}, {6, 720}};
         return TestData;
     }
-    // Server khac cai nay
+
+    // Them dong nay
     @ParameterizedTest
     @MethodSource(value = "initTestData")
     public void TestFactorialGivenRightArgumentReturnsWell(int n, long expected) {
